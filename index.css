@@ -1,0 +1,407 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#start{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(8, 120, 212);
+    display: flex;
+    justify-content: center;
+}
+
+#start a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.menu-left{
+    width: 550px;
+    height: 50px;
+    float: left;
+}
+
+.menu-main{
+
+    width: 350px;
+    height: 50px;
+    float: left;
+}
+.menu-left-v{
+    float: left;
+    list-style: none;
+    padding: 0px 10px;
+    height:35px;
+    font-size: 30px;
+    position: relative;
+    padding-top: 15px;
+}
+
+.menu-left-v a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+
+}
+.menu-left-v a:hover{
+    color:rgb(13, 14, 14);
+}
+.menu-left-v:hover{
+    background-color: chocolate;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+}
+.menu-left-v:hover .dropdown{
+    display: block;
+    width: 170px;
+    background-color : chocolate;
+    margin-top:0px;
+    margin-left: -10px;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.dropdown li{
+    list-style: none;
+    color: black;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
+
+}
+.dropdown li:hover{
+    border-bottom: 2px solid rgb(51, 45, 34);
+    padding-left: 5px;
+    /* background-color: #a202b8;; */
+}
+
+.dropdown li a:hover{
+    /* color:rgb(102, 21, 168); */
+    
+}
+.dropdown li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+}
+.menu-right{
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+.menu-right a{
+    float: right;
+    margin-left: 10px;
+}
+.menu-right .try-for-free{
+    padding: 15px 20px;
+    background-color:rgb(11, 8, 199) ;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-right .login{
+    color: rgb(150, 146, 146);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.login:hover{
+    border: 1px solid rgb(243, 240, 240);
+}
+
+.back{
+    width: 100%;
+    height: 600px;
+    background-color: #FECE00;
+    font-family :
+   
+    
+}
+.back{margin-top: 10px;
+}
+    .back1{
+        width : 380px;
+        height: 450px;
+        overflow: hidden;
+        margin: 15px 0 0 100px;
+        border-top: 100px solid #FECE00;
+        float: left
+        
+       
+          }
+    #haha{
+        line-height: 45px;
+        font-size: 45px;
+        font-weight: 800;
+    }
+    #huhu{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    #anh{
+        width : 700px;
+        height: 600px;
+        float: left;
+        
+    
+    }
+    #anh{
+      padding-left: 100px;
+    }
+    .hero{
+        width: 100%;
+        height: 450px;
+        /* background-color: #FECE00; */
+        margin-top: 60px;
+    }
+    .caro{
+        width: 100%;
+        height: 70px;
+        /* background-color: cadetblue; */
+        font-size: 60px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .bao1{
+        width: 30.8%;
+        height: 415px;
+        padding: 20px;
+        background-color: #FECE00;
+        float: left;
+        box-sizing: border-box;
+        margin-right: 1%;
+        margin-left: 1.5%;
+        border-radius: 10px;
+        
+
+    }
+    .bao1 a{
+        text-decoration:none;
+        font-size: 25px;
+    }
+    .bao1 a:hover{
+        /* color:#2ecc71; */
+        color: rgb(150, 3, 155);
+        
+    }
+    .text3{ margin-top: 30px;
+    padding-left: 20px;}
+    .text3 a{
+        text-decoration:none;
+        color: black;
+    }
+    
+
+    #hero2{
+        width: 100%;
+        height: 450px;
+        /* background-color: #FECE00; */
+        
+    }
+    
+     .three-content{
+         width: 100%;
+         height: auto;
+         margin-left: 40px;
+         margin-top: 120px;
+         /* margin: 0px auto; */
+     }   
+     .three-content-1{
+         width: 100%;
+         height: 150px;
+         display:flex;
+         justify-content: center;
+     }
+     .three-left{
+         width: 500px;
+         
+     }
+     .three-left img{
+         float: left;
+    }
+     .three-left p{
+         float: left;
+         font-size: 30px;
+         font-weight: 900;
+         margin-left: 50px;
+         margin-top: 50px;
+
+
+          
+     }
+   
+     .three-right{
+         width: 500px;
+         height: 95x;
+     }
+     .three-right p{
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 40px;
+        
+     }
+     #medi{
+         width: 100%;
+         margin-top: 100px;
+         height: 180px;
+        background: chocolate;
+        font-size: 50px;
+        text-align: center;
+        font-weight: 800;
+                
+     }
+     #medi p{
+        
+         padding-top: 55px;
+         
+     }
+     #yasuo{
+         width: 100%;
+         height: 340px;
+         margin-top: 50px;
+         
+         
+        
+     }
+     .penta1{
+        font-size: 60px;
+        width: 400px;
+        height: 360px;
+        text-decoration: none;
+        /* background-color: crimson; */
+        float: left;
+        list-style: none ;
+        margin-left: 280px;
+        text-align: left;
+        border-radius: 10px;
+    
+        
+    }
+    .penta2{
+        font-size: 60px;
+        width: 400px;
+        text-decoration: none;
+        /* background-color: red; */
+        float: left;
+        list-style: none ;
+        text-align: left;
+        margin-left: 200px;
+    
+        
+    }
+
+       .penta1 a { text-decoration: none;
+        color: black;
+        
+        
+    }    
+    .penta2 a { text-decoration: none;
+        color: black;
+        
+    }    
+     
+       .penta1 li {
+        text-decoration: none;
+        font-size: 25px;
+        padding: 10px;
+        padding-left: 0px;
+        /* background-color: brown; */
+        list-style: none ;
+       }
+       .penta2 li {
+        text-decoration: none;
+        font-size: 25px;
+        padding: 10px;
+        padding-left: 0px;
+        /* background-color: brown; */
+        list-style: none ;}
+       .penta1 li a { color: black}
+       .penta2 li a { color: black;}
+       .sonpenta{
+           padding-top: 25px;
+       }
+    
+       #messi img {
+           padding-top: 200px;
+           padding-bottom: 150px;
+           
+       }
+
+        
+        footer {
+                margin-top: 50px;
+                display: flex;
+                background-color: #63524fc0;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                text-align: center;
+                height: 200px;
+            }
+        .yuko{
+            width: 23%;
+        
+        }
+        .yuko2{ width: 23%;
+        font-size: 70px;
+        padding-left: 80px;
+        padding-top : 70px;
+        font-weight: 800;
+    }
+    .yuri li a { 
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+.yuri li {
+    padding: 5px;
+    text-align: left;
+}
+    .yuri{list-style: none;
+        padding-left: 100px;
+        padding-top: 60px;
+    }
+    #mar p { font-size: 20px;}
+    #mar{ padding-top: 68px;}
+    #mar p .zasu {
+        padding-top: 30px;
+    }
+    .yuko p { font-size: 20px;}
+    .yuri3{
+        font-size: 20px;
+        text-align: left;
+        padding-left: 60px;
+        padding-top: 66px;
+        
+        
+    }
+    .yuri3 {
+        list-style: none;
+    
+    }
+    .yuri3 li a { text-decoration: none;
+    color: black;
+    
+      }
+      #kaze{
+          padding-top: 10px;
+      }
+      #kaze li { padding-bottom: 10px ;}
+      
